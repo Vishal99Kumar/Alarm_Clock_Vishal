@@ -1,0 +1,118 @@
+/*REAL TIME CLOCK*/
+
+.clock{
+
+    font-family: "Arial", Helvetica, sans-serif;
+    background-color: black;
+    border-radius: 10%;
+    width: 600px;
+    height: 700px;
+    font-weight: 400;
+    position: relative;
+    font-size: 5rem;
+    margin-top: 40px;
+   
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+}
+
+.time{
+ color: whitesmoke;
+ text-shadow: -1px 1px 0 #fff,
+                          1px 1px 0 #000,
+                         1px -1px 0 #000,
+                        -1px -1px 0 #000;
+}
+#hrs{
+  padding-left: 0px;
+}
+#AM-PM{
+  padding-left: 10px;
+}
+
+.colon{
+  background-color: transparent;
+  color: #595959;
+}
+.ele-name{
+  padding-top: 0px;
+  margin-top: -15px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.name{
+   color: #595959;
+   font-size: 1.5rem;
+
+}
+
+/*ALARM LIST*/
+#set-alarm{
+  margin-bottom: 10px;
+  font-size: 30px;
+  text-align: left;
+  margin-left: 20px;
+  color: #a3a3a3;
+}
+.alarm-hour{
+  font-size: 30px;
+ 
+
+}
+.form-select{
+  width: 120px;
+  color: #a3a3a3;
+  border-color: transparent;
+}
+.alarm-btn{
+  margin-top: -5px;
+  height: 40px;
+  color: #a3a3a3;
+  border-color: transparent;
+
+}
+.alarm-btn:hover{
+    color: #a3a3a3;
+}
+.delete-btn{
+  margin-top: -5px;
+  margin-left: 25px;
+  height: 40px;
+  color: #a3a3a3;
+  border-color: transparent;
+
+}
+.delete-btn:hover{
+    color: #a3a3a3;
+}
+
+
+/*All- alarms*/
+#all-alarms{
+  margin-bottom: 10px;
+  font-size: 30px;
+  text-align: left;
+  margin-left: 20px;
+  color: #a3a3a3;
+}
+#alarm-list{
+    font-size: 25px;
+    text-align: justify;
+    color: #a3a3a3;
+    overflow: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+
+}
+
+
+li{
+    margin-top: 10px;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
